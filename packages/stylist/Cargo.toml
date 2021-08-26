@@ -30,7 +30,7 @@ stylist-macros = { path = "../stylist-macros", version = "0.9.0", optional = tru
 once_cell = "1.8.0"
 rand = { version = "0.8.4", features = ["small_rng"], optional = true }
 wasm-bindgen = "0.2.76"
-yew = { git = "https://github.com/Madoshakalaka/yew", branch = "master", optional = true, default-features = false}
+yew = { git = "https://github.com/Madoshakalaka/yew", rev = "f574c2fce319ea7f0893c01b001176615e374792", optional = true, default-features = false}
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 getrandom = { version = "0.2.3", features = ["js"], optional = true }
