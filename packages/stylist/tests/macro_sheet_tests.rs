@@ -96,7 +96,7 @@ fn test_sheet_interpolation() {
             .into(),
         }),
     ]);
-    assert_eq!(parsed, expected.into());
+    assert_eq!(parsed, expected);
 }
 
 #[test]
@@ -123,5 +123,5 @@ fn test_sheet_escaped() {
         }]
         .into(),
     })]);
-    assert_eq!(parsed, expected.into());
+    assert_eq!(parsed, expected);
 }
