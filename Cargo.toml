@@ -12,3 +12,8 @@ members = [
     "examples/yew-theme-yewdux",
 ]
 resolver = "2"
+
+[patch.crates-io]
+yew = { git = "https://github.com/yewstack/yew", rev = "7a55441daed1b154df47077133e377120a23de75" }
+yew-agent = { git = "https://github.com/yewstack/yew", rev = "7a55441daed1b154df47077133e377120a23de75" }
+yewdux = { git = "https://github.com/intendednull/yewdux", rev = "d844ab9918ff0eaae59be57cce3773ed33f72dca" }
